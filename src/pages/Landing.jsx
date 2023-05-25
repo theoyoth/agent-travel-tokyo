@@ -65,7 +65,7 @@ const LandingPage = () => {
     }
   }
   return (
-    <motion.section className="relative h-[90vh]" id="home">
+    <section className="relative h-[90vh]" id="home">
       <div className="grid grid-cols-2">
         <div>
           <motion.h1 className="text-[8rem] font-bold leading-tight -ml-3" variants={exploreStagger} initial="init" animate="visible">
@@ -93,7 +93,7 @@ const LandingPage = () => {
         </motion.div>
       </div>
       <p className="text-xs font-semibold text-right absolute right-0 bottom-0">PAGE 1 OF 4</p>
-    </motion.section>
+    </section>
   )
 }
 
